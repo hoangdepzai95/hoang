@@ -1,0 +1,33 @@
+{
+  "name": "MyNewProject",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "node node_modules/jest/bin/jest.js"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "expo": "17.0.0",
+    "react": "16.0.0-alpha.6",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-17.0.0.tar.gz",
+    "react-native-router-flux": "^3.39.2",
+    "react-native-tab-navigator": "^0.3.3",
+    "react-redux": "^5.0.5",
+    "redux": "^3.6.0",
+    "redux-saga": "^0.15.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-react-native": "^1.9.2",
+    "eslint": "^3.19.0",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-jsx-a11y": "^5.0.3",
+    "eslint-plugin-react": "^7.0.1",
+    "jest-expo": "~1.0.1"
+  }
+}
